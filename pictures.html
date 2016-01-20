@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- Adapted from lab week 2 -->
+    <!-- Set page width equal to browser window width -->
+    <meta name="viewport" content="width=device-width intial-scale=1" />
+    <!-- download bootstrap file -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+</head>
+<body>
+
+<div class="container">
+    <!--
+    Bootstraps considers this the top-level container of the web page
+    All bootstrap elements go inside this container.
+    -->
+
+    <h1>Playing with pictures</h1>
+    <h2>Greenlandic Bellflower</h2>
+    <p>The original image:</p>
+    <img src="greenlandic-bellflower-905112__180.jpg" alt="Greenlandic Bellfower: clustered drooping light purple bell-shaped flowers"/>
+
+    <p>Displayed in an ellipse:</p>
+    <img class="img-circle" src="greenlandic-bellflower-905112__180.jpg" alt="Greenlandic Bellfower photo in an ellipse shape." />
+
+    <p>With rounded corners:</p>
+    <img class="img-rounded" src="greenlandic-bellflower-905112__180.jpg" alt="Greenlandic Bellfower photo with rounded corners." />
+
+    <p>As a thumbnail.  Useful for creating a clickable image.  It's better form to
+    create a smaller version of the image and use that, rather than using the full-size
+    original.</p>
+    <img class="img-thumbnail" src="greenlandic-bellflower-905112__180.jpg" alt="Greenlandic Bellfower photo as a large thumbnail." />
+
+    <p>I got the image from <a href="https://pixabay.com">pixabay.com</a>, shown here as a
+    clickable thumbnail: <a href="https://pixabay.com/static/uploads/photo/2015/08/24/15/04/">
+            <img class="img-thumbnail" src="greenlandic-bellflower-905112__180.jpg" width="100" alt="Greenlandic Bellfower photo as a small thumbnail." \> </a>
+        </a></p>
+</div>
+
+<footer>
+    <!-- image credit: https://pixabay.com/static/uploads/photo/2015/08/24/15/04/greenlandic-bellflower-905112__180.jpg -->
+</footer>
+
+</body>
+
+</html>
